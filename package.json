@@ -2,10 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "node index",
-    "dev":"nodemon index"
+    "test": "node server",
+    "dev":"nodemon server"
   },
   "author": "",
   "license": "ISC",
