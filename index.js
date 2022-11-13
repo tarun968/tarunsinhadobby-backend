@@ -19,7 +19,7 @@ app.use(express.static("public"));
 app.use(express.json());
 app.use(cors(
     {
-        origin: ['http://localhost:3000','https://tarunsinhadobbyassignment.onrender.com'],
+        origin: ['http://localhost:3000','https://tarunsinhadobby2.onrender.com/'],
         credentials: true,            //access-control-allow-credentials:true
         optionSuccessStatus: 200,
     }
